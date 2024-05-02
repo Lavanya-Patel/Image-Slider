@@ -1,0 +1,36 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.slider img{
+    height: 737px;
+    width: 100%;
+}
+.slider {
+    position: relative;
+}
+
+.slide {
+    display: none;
+    width: 100%;
+}
+
+#prev, #next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#prev {
+    left: 5px;
+}
+
+#next {
+    right: 5px;
+}
